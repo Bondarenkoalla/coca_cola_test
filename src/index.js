@@ -34,13 +34,13 @@ function onPresentClick(e) {
   
   if (e.target.id === '1') {
     chosenProduct.innerHTML =
-      '<img src="/pres1.ed728cab.png" class="selected-product-photo" height="239px"/><h4 class="product-header">Best sock ever</h4><p class="prouct-info">Reuglar sock have no present inside Lorem Ipsum is simply dumm y text of the printing and types etting industry. Lorem</p>';
+      '<img src="/coca_cola_test/pres1.ed728cab.png" class="selected-product-photo" height="239px"/><h4 class="product-header">Best sock ever</h4><p class="prouct-info">Reuglar sock have no present inside Lorem Ipsum is simply dumm y text of the printing and types etting industry. Lorem</p>';
   } else if (e.target.id === '2') {
     chosenProduct.innerHTML =
-      '<img src="/pres2.83893b2f.png" class="selected-product-photo" height="148px"/><h4 class="product-header">Best hat ever</h4><p class="prouct-info">Reuglar hat have no present inside Lorem Ipsum is simply dumm y text of the printing and types etting industry. Lorem</p>';
+      '<img src="/coca_cola_test/pres2.83893b2f.png" class="selected-product-photo" height="148px"/><h4 class="product-header">Best hat ever</h4><p class="prouct-info">Reuglar hat have no present inside Lorem Ipsum is simply dumm y text of the printing and types etting industry. Lorem</p>';
   } else {
     chosenProduct.innerHTML =
-      '<img src="/pres3.e43f42fa.png" class="selected-product-photo" height="171px"/><h4 class="product-header">Best bag ever</h4><p class="prouct-info">Reuglar bag have no present inside Lorem Ipsum is simply dumm y text of the printing and types etting industry. Lorem</p>';
+      '<img src="/coca_cola_test/pres3.e43f42fa.png" class="selected-product-photo" height="171px"/><h4 class="product-header">Best bag ever</h4><p class="prouct-info">Reuglar bag have no present inside Lorem Ipsum is simply dumm y text of the printing and types etting industry. Lorem</p>';
   }
 
   console.log(e.target.id, e.target.img);
